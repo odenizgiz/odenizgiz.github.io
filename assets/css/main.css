@@ -2270,8 +2270,11 @@
 				/*padding: 3em;
 				padding-right: 5em;
 				padding-left: 1.5em;*/
-				padding: 3em;
+
+				/*padding: 3em;*/
+				padding-left: 1em; 
 				padding-top: 1em;
+				padding-right: 5em;  /* new */
 				/*width: 50%;*/
 				width: 10%;
 			}
