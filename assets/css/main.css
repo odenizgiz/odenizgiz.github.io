@@ -3788,7 +3788,7 @@
 				.box.features .features-row section {
 					margin: 3em 0 0 0 !important;
 					/*padding: 3em 0 0 0 !important;*/
-					padding: 3em 0 0 3em !important;
+					padding: 0 0 0 3em !important;
 					/* Giz. I am adding this: */
 					/* width: 80%;*/
 					/* float: right;*/
