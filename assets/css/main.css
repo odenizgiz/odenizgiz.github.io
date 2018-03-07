@@ -3799,6 +3799,7 @@
 					/* Giz. I am adding this: */
 					/* width: 80%;*/
 					/* float: right;*/
+					float: left;
 					padding: 3em 0 0 1em !important;
 				}
 				.box.features .features-row iconspace {
@@ -3815,7 +3816,7 @@
 					/*padding-left: 1em;*/
 					/*padding-top: 3em !important;*/
 					padding: 0 4em 4em 1em !important;
-					width: 20%;
+					width: 30%;
 				}
 
 
