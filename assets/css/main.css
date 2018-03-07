@@ -3788,7 +3788,22 @@
 				.box.features .features-row section {
 					margin: 3em 0 0 0 !important;
 					padding: 3em 0 0 0 !important;
+					/* Giz. I am adding this: */
+					width: 80%;
+					/*float: right;*/
 				}
+				.box.features .features-row iconspace {
+					float: left;
+					/*padding: 3em;*/
+					/*padding: 3em;
+					padding-right: 5em;
+					padding-left: 1.5em;*/
+					padding: 3em;
+					padding-top: 1em;
+					/*width: 50%;*/
+					width: 10%;
+				}
+
 
 				.box .image.featured {
 					border-radius: 0;
