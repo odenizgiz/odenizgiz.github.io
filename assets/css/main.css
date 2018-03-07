@@ -3794,7 +3794,8 @@
 					/* float: right;*/
 				}
 				.box.features .features-row iconspace {
-					float: top;
+					float: left;
+					/*float: left;*/
 					/*padding: 3em;*/
 					/*padding: 3em;
 					padding-right: 5em;
@@ -3805,8 +3806,8 @@
 					/*padding-bottom: 10em;*/
 					/*padding-left: 1em;*/
 					/*padding-top: 3em !important;*/
-					padding: 0 4em 10em 1em !important;
-					width: 10%;
+					padding: 0 4em 0em 1em !important;
+					/*width: 10%;*/
 				}
 
 
