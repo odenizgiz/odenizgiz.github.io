@@ -2274,14 +2274,15 @@
 				/*padding: 3em; new old*/
 				padding-left: 1em;
 				/*padding-top: 1em; new old */
-				padding-top: 0; /* new */
+				padding-top: 1em; /* new */
 				padding-right: 5em;  /* new */
 				/*width: 50%;*/
 				width: 10%;
 			}
 
 			.box.features .features-row section {
-				float: right;
+				/*float: right; new old */
+				float: left;
 				padding: 3em;
 				/*width: 50%;*/
 				width: 80%;
