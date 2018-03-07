@@ -2282,7 +2282,7 @@
 
 			.box.features .features-row section {
 				/*float: right; new old */
-				float: right;
+				float: left;
 				/*new old: */
 				padding: 3em;
 				/*padding: 1em;*/
