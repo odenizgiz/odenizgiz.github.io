@@ -3795,10 +3795,11 @@
 				.box.features .features-row section {
 					margin: 3em 0 0 0 !important;
 					/*padding: 3em 0 0 0 !important;*/
-					padding: 3em 0 0 4em !important;
+					/*padding: 3em 0 0 4em !important;*/   /* new old */
 					/* Giz. I am adding this: */
 					/* width: 80%;*/
 					/* float: right;*/
+					padding: 3em 0 0 1em !important;
 				}
 				.box.features .features-row iconspace {
 					float: left;
@@ -3814,7 +3815,7 @@
 					/*padding-left: 1em;*/
 					/*padding-top: 3em !important;*/
 					padding: 0 4em 4em 1em !important;
-					width: 10%;
+					width: 20%;
 				}
 
 
