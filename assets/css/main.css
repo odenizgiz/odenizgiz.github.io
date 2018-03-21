@@ -3159,7 +3159,14 @@
 			#banner input[type="button"].special,
 			#banner .button.special {
 				/*background: #fff;*/
-				background: #EDEBE8;
+				/*background: #EDEBE8;*/
+				background: url('images/apple-app-store.png');
+				/*display: inline-block;*/
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				background-repeat:no-repeat;
 				/*color: #666 !important;*/
 				color: #666 !important;
 			}
@@ -3650,8 +3657,16 @@
 						border-top: solid 1px #e5e5e5 !important;
 						float: none;
 						margin: 2em 0 0 0 !important;
-						padding: 2em 0 0 0 !important;
+						/*padding: 2em 0 0 0 !important;*/
+						/* new: */
+						padding: 2em 0 0 1em !important;
 						width: 100%;
+					}
+
+					.box.features .features-row iconspace {
+						float: left;
+						padding: 0 4em 4em 1em !important;
+						width: 30%;
 					}
 
 					.box.features .features-row:first-child section:first-child {
