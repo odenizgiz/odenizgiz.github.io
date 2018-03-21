@@ -3160,15 +3160,14 @@
 			#banner .button.special {
 				/*background: #fff;*/
 				/*background: #EDEBE8;*/
-				background: url('images/apple-app-store.png');
+				background: url('images/apple-app-store.png') center;
 				/*display: inline-block;*/
-				-webkit-background-size: cover;
-				-moz-background-size: cover;
-				-o-background-size: cover;
-				background-size: cover;
+				-webkit-background-size: contain;
+				-moz-background-size: contain;
+				-o-background-size: contain;
+				background-size: contain;
 				background-repeat:no-repeat;
 				/*color: #666 !important;*/
-				color: #666 !important;
 			}
 
 /* Main */
@@ -3496,7 +3495,7 @@
 						text-transform: none !important;
 					}
 
-					#navButton .toggle:before {
+					/*#navButton .toggle:before {
 						background: rgba(192, 192, 192, 0.75);
 						border-radius: 6px;
 						color: #fff;
@@ -3510,7 +3509,7 @@
 						text-align: center;
 						top: 0.5em;
 						width: 3.5em;
-					}
+					}*/
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
